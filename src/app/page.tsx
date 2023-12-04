@@ -28,6 +28,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    <Page />;
     const time = gsap.getById("loading");
     setTimeout(() => setIsDone(true), (time as any)._end * 1000);
   }, []);

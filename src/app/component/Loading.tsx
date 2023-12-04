@@ -85,10 +85,18 @@ const Loading = () => {
         opacity: 1,
       });
     });
+
+    tl.to(".page", {
+      clipPath: "inset(50% 50% 49% 50%)",
+      duration: 1,
+    });
   }, []);
 
   return (
-    <div className="bg-black text-white h-screen">
+    <div
+      className="bg-black text-white h-screen page"
+      // style={{ clipPath: "polygon(100% 0%, 100% 0%, 100% 0%, 100% 0%)" }}
+    >
       <div
         ref={container}
         className="absolute flex items-center justify-center w-full h-screen flex-col gap-5">
