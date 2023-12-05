@@ -11,7 +11,7 @@ const PreFooter = () => {
 
       <div className="flex">
         <p className="rounded-l-[6px] h-auto flex items-center pl-3 pr-10 border border-[##DAE0E6] text-gray-400 bg-white shadow-inner shadow-[#1018280A]">
-          Kuda: 1101893635
+          Kuda: 1101449097
         </p>
         <Button />
       </div>
